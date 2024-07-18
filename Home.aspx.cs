@@ -34,6 +34,7 @@ namespace Pet_E_Care
                 da.Fill(dt);
                 txtName.Text = "";
                 txtContactNumber.Text = "";
+                Pet.SelectPet = PetName;
                 Response.Redirect("Facilities.aspx");
             }
             else
