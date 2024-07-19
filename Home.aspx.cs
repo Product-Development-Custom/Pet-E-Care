@@ -39,7 +39,7 @@ namespace Pet_E_Care
             }
             else
             {
-               lbl3.Text = "Please Enter Details";
+               lbl3.Text = "Please Enter All Details";
             }
         }
     }

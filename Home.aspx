@@ -93,11 +93,6 @@
                 background-color: #218838;
             }
     </style>
-    <script type="text/javascript">
-        function showAlert(message) {
-            alert(message);
-        }
-    </script>
 </head>
 <body>
     <form id="form1" runat="server">
