@@ -26,7 +26,7 @@ namespace Pet_E_Care
             if (!string.IsNullOrEmpty(txtDayCare.Text) && !string.IsNullOrEmpty(txtDayCare1.Text) && !string.IsNullOrEmpty(TextBox1.Text) 
                 && !string.IsNullOrEmpty(TextBox2.Text) && !string.IsNullOrEmpty(txtPetTraining.Text) && !string.IsNullOrEmpty(txtPetBodyWash.Text))
             {
-                Response.Redirect("Home.aspx");
+                Response.Redirect("Response.aspx");
             }
             else
             {

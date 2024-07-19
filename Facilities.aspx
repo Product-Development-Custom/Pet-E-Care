@@ -50,7 +50,8 @@
             margin-right: 10px;
         }
 
-        .container {
+        .container { 
+            margin-top:100px;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 30px;
             border-radius: 10px;
@@ -154,13 +155,17 @@
                         <asp:TextBox ID="txtPetBodyWash" CssClass="form-control" runat="server" />
                     </div>
                     <center>
+                        <br />
                         <asp:Label runat="server" ID="lbl3" ForeColor="Red"></asp:Label><br />
                         <br />
                     </center>
-                    <br />
                     <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit-btn" OnClick="btnSubmit_Click" />
                 </div>
             </div>
+            <hr />
+                <marquee behavior="scroll" direction="left" scrollamount="5">
+                    This Website Is Developed By MohammadAvim Parasara
+                </marquee>
         </div>
     </form>
 </body>

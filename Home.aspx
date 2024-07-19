@@ -124,6 +124,11 @@
             </center>
             <asp:Button ID="btnSubmit" runat="server" Text="Go" CssClass="submit-btn" OnClick="btnSubmit_Click" />
         </div>
+        <hr />
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            This Website Is Developed By MohammadAvim Parasara
+   
+        </marquee>
     </form>
 </body>
 </html>
