@@ -115,7 +115,6 @@
                 <div class="radio-group">
                     <asp:RadioButton ID="rbDog" runat="server" GroupName="category" Text="Dog" Checked="true" />
                     <asp:RadioButton ID="rbCat" runat="server" GroupName="category" Text="Cat" />
-                    <asp:RadioButton ID="rbBird" runat="server" GroupName="category" Text="Bird" />
                 </div>
             </div>
             <center>

@@ -25,7 +25,7 @@ namespace Pet_E_Care
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            string PetName = rbBird.Checked ? rbBird.Text : rbCat.Checked ? rbCat.Text : rbDog.Checked ? rbDog.Text : string.Empty;
+            string PetName =  rbCat.Checked ? rbCat.Text : rbDog.Checked ? rbDog.Text : string.Empty;
             if (!string.IsNullOrEmpty(txtName.Text) && !string.IsNullOrEmpty(txtContactNumber.Text))
             {
                 string sql = "insert into PetCare values('" + txtName.Text + "','" + txtContactNumber.Text + "','" + PetName + "')";

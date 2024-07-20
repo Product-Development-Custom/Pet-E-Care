@@ -69,15 +69,6 @@ namespace Pet_E_Care
         protected global::System.Web.UI.WebControls.RadioButton rbCat;
 
         /// <summary>
-        /// rbBird control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rbBird;
-
-        /// <summary>
         /// lbl3 control.
         /// </summary>
         /// <remarks>
