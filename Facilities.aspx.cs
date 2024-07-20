@@ -35,7 +35,7 @@ namespace Pet_E_Care
     }
     public class Pet
     {
-        public static string SelectPet = "Dog";
+        public static string SelectPet = "Cat";
         public string Name { get; set; }
         public string ImageUrl { get; set; }
     }

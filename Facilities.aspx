@@ -10,7 +10,7 @@
             padding: 0;
             margin: 0;
             font-family: Arial, sans-serif;
-            height: 100%;
+            height: 120%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -44,19 +44,19 @@
         }
 
         .breed-photo {
-            width: 50px;
-            height: 50px;
+            width: 150px;
+            height: 90px;
             background-color: #f0f0f0;
             margin-right: 10px;
         }
 
-        .container { 
-            margin-top:100px;
+        .container {
+            margin-top: 400px;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 90%;
+            width: 100%;
             max-width: 530px;
             text-align: center;
         }
@@ -80,49 +80,57 @@
                     <div class="form-section" id="dogBreeds" runat="server" visible="false">
                         <div class="breed-section">
                             <div class="breed-item">
-                                <img class="breed-photo" src="https://images.unsplash.com/photo-1558788353-f76d92427f16" alt="German Shepherd" />
-                                <asp:RadioButton ID="rbGermanShepherd" runat="server" GroupName="DogBreeds" Text="German Shepherd" Checked="true" />
+                                <img class="breed-photo" src="https://www.dogster.com/wp-content/uploads/2013/09/siberian-husky-puppy-on-grass_ANURAK-PONGPATIMET_Shutterstock.jpg" alt="Husky" />
+                                <asp:RadioButton ID="rbGermanShepherd" runat="server" GroupName="DogBreeds" Text="Husky" Checked="true" />
                             </div>
                             <div class="breed-item">
-                                <img class="breed-photo" src="https://images.unsplash.com/photo-1560807707-8cc77767d783" alt="Shitzu" />
-                                <asp:RadioButton ID="rbShitzu" runat="server" GroupName="DogBreeds" Text="Shitzu" />
+                                <img class="breed-photo" src="https://hips.hearstapps.com/hmg-prod/images/labrador-puppy-royalty-free-image-1626252338.jpg?crop=0.667xw:1.00xh;0.173xw,0&resize=2048:*" alt="Labrador" />
+                                <asp:RadioButton ID="rbShitzu" runat="server" GroupName="DogBreeds" Text="Labrador" />
                             </div>
                             <div class="breed-item">
-                                <div class="breed-photo"></div>
-                                <asp:RadioButton ID="rbOtherDog" runat="server" GroupName="DogBreeds" Text="Other" />
+                                <img class="breed-photo" src="https://image.petmd.com/files/styles/978x550/public/2022-10/pomeranian.jpeg?w=1080&q=75" alt="Pomerian" />
+                                <asp:RadioButton ID="RadioButton3" runat="server" GroupName="DogBreeds" Text="Pomerian" />
                             </div>
+                            <div class="breed-item">
+                                <img class="breed-photo" src="https://www.forbes.com/advisor/wp-content/uploads/2023/11/shih-tzu-temperament.jpeg.jpg" alt="shih-tzu" />
+                                <asp:RadioButton ID="RadioButton4" runat="server" GroupName="DogBreeds" Text="shih-tzu" />
+                            </div>
+                            <div class="breed-item">
+                                <img class="breed-photo" src="https://blog.gudog.co.uk/wp-content/uploads/2023/11/german-sherperd.jpeg" alt="German Shepherd" />
+                                <asp:RadioButton ID="RadioButton5" runat="server" GroupName="DogBreeds" Text="German Shepherd" />
+                            </div>
+                            <div class="breed-item">
+                                <img class="breed-photo" src="https://hips.hearstapps.com/hmg-prod/images/small-dogs-6626cf74dfe17.jpg?crop=0.579xw:0.868xh;0.197xw,0.0337xh&resize=640:*" alt="Others" />
+                                <asp:RadioButton ID="rbOtherDog" runat="server" GroupName="DogBreeds" Text="Others" />
+                            </div>
+
                         </div>
                     </div>
                     <div class="form-section" id="catBreeds" runat="server" visible="false">
                         <div class="breed-section">
                             <div class="breed-item">
-                                <img class="breed-photo" src="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cat Ragdoll" />
-                                <asp:RadioButton ID="rbCatBreed1" runat="server" GroupName="CatBreeds" Text="Ragdoll" Checked="true" />
+                                <img class="breed-photo" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2024/January/munchkin-cat-breed.jpg" alt="Munchkin" />
+                                <asp:RadioButton ID="rbCatBreed1" runat="server" GroupName="CatBreeds" Text="Munchkin" Checked="true" />
                             </div>
                             <div class="breed-item">
-                                <img class="breed-photo" src="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cat Ragdoll" />
-                                <asp:RadioButton ID="RadioButton2" runat="server" GroupName="CatBreeds" Text="Persian" />
+                                <img class="breed-photo" src="https://mummycat.in/wp-content/uploads/2018/12/persian-cat-600x600.jpg" alt="Persian Cat" />
+                                <asp:RadioButton ID="RadioButton2" runat="server" GroupName="CatBreeds" Text="Persian Cat" />
                             </div>
                             <div class="breed-item">
-                                <div class="breed-photo"></div>
-                                <asp:RadioButton ID="RadioButton1" runat="server" GroupName="CatBreeds" Text="Other" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-section" id="birdBreeds" runat="server" visible="false">
-                        <div class="breed-section">
-                            <div class="breed-item">
-                                <img class="breed-photo" src="https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bird Breed 1" />
-                                <asp:RadioButton ID="rbBirdBreed1" runat="server" GroupName="BirdBreeds" Text="Breed 1" Checked="true" />
+                                <img class="breed-photo" src="https://cats.com/wp-content/uploads/2020/10/The-British-Longhair.jpg" alt="British Longhair" />
+                                <asp:RadioButton ID="RadioButton6" runat="server" GroupName="CatBreeds" Text="British Longhair" />
                             </div>
                             <div class="breed-item">
-                                <img class="breed-photo" src="https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Bird Breed 1" />
-                                <asp:RadioButton ID="RadioButton4" runat="server" GroupName="BirdBreeds" Text="Breed 1" />
+                                <img class="breed-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGjlBBkhO1BeKzabyuWTuDf9EoJyyQy2TTO6tXoTaoCJn4fFMtz--ezZsBwbPPoBSjwc&usqp=CAU" alt="American Longhair" />
+                                <asp:RadioButton ID="RadioButton7" runat="server" GroupName="CatBreeds" Text="American Longhair" />
                             </div>
                             <div class="breed-item">
-                                <div class="breed-photo"></div>
-                                <asp:RadioButton ID="RadioButton3" runat="server" GroupName="BirdBreeds" Text="Other" />
+                                <img class="breed-photo" src="https://www.thesprucepets.com/thmb/aWULXjTWxZbCJ4GixA7JMw8K15w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1189893683-e0ff70596b3b4f0687ba573e5a671f74.jpg" alt="Maine coon" />
+                                <asp:RadioButton ID="RadioButton8" runat="server" GroupName="CatBreeds" Text="Maine Coon" />
+                            </div>
+                            <div class="breed-item">
+                                <img class="breed-photo" src="https://www.purina.co.uk/sites/default/files/2023-03/Teaser%20Pedigree%20Cats.jpg" alt="Others" />
+                                <asp:RadioButton ID="RadioButton1" runat="server" GroupName="CatBreeds" Text="Others" />
                             </div>
                         </div>
                     </div>
@@ -163,9 +171,10 @@
                 </div>
             </div>
             <hr />
-                <marquee behavior="scroll" direction="left" scrollamount="5">
-                    This Website Is Developed By MohammadAvim Parasara
-                </marquee>
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                This Website Is Developed By MohammadAvim Parasara From Gujarat
+               
+            </marquee>
         </div>
     </form>
 </body>

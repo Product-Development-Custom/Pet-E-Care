@@ -35,6 +35,7 @@
         }
 
         .container {
+            margin-top: 150px;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             border-radius: 10px;
@@ -122,12 +123,11 @@
                 <br />
             </center>
             <asp:Button ID="btnSubmit" runat="server" Text="Go" CssClass="submit-btn" OnClick="btnSubmit_Click" />
+            <hr />
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                This Website Is Developed By MohammadAvim Parasara From Gujarat
+            </marquee>
         </div>
-        <hr />
-        <marquee behavior="scroll" direction="left" scrollamount="5">
-            This Website Is Developed By MohammadAvim Parasara
-   
-        </marquee>
     </form>
 </body>
 </html>
