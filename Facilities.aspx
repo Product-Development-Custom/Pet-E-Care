@@ -1,10 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Facilities.aspx.cs" Inherits="Pet_E_Care.Facilities" %>
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Paw-Fessionals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
         body, html {
             padding: 0;
@@ -103,7 +102,6 @@
                                 <img class="breed-photo" src="https://hips.hearstapps.com/hmg-prod/images/small-dogs-6626cf74dfe17.jpg?crop=0.579xw:0.868xh;0.197xw,0.0337xh&resize=640:*" alt="Others" />
                                 <asp:RadioButton ID="rbOtherDog" runat="server" GroupName="DogBreeds" Text="Others" />
                             </div>
-
                         </div>
                     </div>
                     <div class="form-section" id="catBreeds" runat="server" visible="false">
@@ -173,7 +171,7 @@
             <hr />
             <marquee behavior="scroll" direction="left" scrollamount="5">
                 This Website Is Developed By MohammadAvim Parasara From Gujarat
-               
+           
             </marquee>
         </div>
     </form>
